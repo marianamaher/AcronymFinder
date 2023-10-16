@@ -1,0 +1,14 @@
+{
+    "manifest_version":3,
+    "name": "Acronym Finder",
+    "minimum_chrome_version":"24.0.1307.0",
+    "version":"1.0.1",
+    "default_locale":"en",
+    "content_scripts":[
+        {
+            "js":["scripts/content.js", "scripts/jquery.min.js"],
+            "css":["css/content.css"],
+            "run_at":"document_idle"
+        }
+    ]
+}
