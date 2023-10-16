@@ -9,9 +9,24 @@ $(document).ready(function(){
     var dictionary = {
         overallResults: {
             npm: "Node Package Manager",
+            CSS: "Cascading Style Sheets",
+            CTO: "Chief Technology Office",
+            CXD: "Client Experience and Digital",
+            BRP: "Big Room Planning",
+            C11N: "Constellation - new UI Library replacing VUI."
         },
         Cones: {
-            dao: "Dashboard",
+            AOQ: "Advice Onboarding Questionnaire - hosts the Light Questionnaire (LQ), the Comments to Advisors Page, Disclosures page",
+            AOW: "Advice Onboarding Webapp - hosts our Log on page (aka Triage page) that links to XIP/OBD after you log on",
+            NEW: "Notification Enrollment Webapp - hosts the communication hub pages",
+            NJO: "PAS Prospect Registration (Modern)",
+            LQ:	 "Light Questionnaire (lives within the AOQ application)",
+            CTA: "Comments to advisors (lives within the AOQ application)",
+            dao: "Onboarding Dashboard (OBD)",
+            AOE: "'Advice Onboarding Endpoint' - provides data used by the Light Questionnaire and Comments to Advisors",
+            DAJ: "Provides data used by the Onboarding Dashboard",
+            OPA: "Online plan acceptance",
+    
         }
     };
 
