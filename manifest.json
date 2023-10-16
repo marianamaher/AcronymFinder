@@ -1,11 +1,15 @@
 {
+    "author": "Mariana Maher",
     "manifest_version":3,
-    "name": "Acronym Finder",
+    "name": "Acronym Finder by Mariana Maher",
     "minimum_chrome_version":"24.0.1307.0",
     "version":"1.0.1",
+    "permissions": [
+        "activeTab"
+      ],
     "content_scripts":[
         {
-            "matches":["https://sarahmorrisonsmith.com/", "https://investor.vanguard.com/my-account/log-on"],
+            "matches":["<all_urls>"],
             "js":[
                 "scripts/jquery.min.js",
                 "scripts/content.js"
