@@ -1,0 +1,28 @@
+#resultsSpan{
+    font-size: 13px;
+    color: grey;
+    margin: 10px;
+    position: relative;
+}
+.resultsHeading{
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 5px;
+
+}
+
+/* Style for two-column layout */
+.resultsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-direction: column; 
+}
+
+.leftColumn {
+    flex: 1;
+}
+
+.rightColumn {
+    flex: 1;
+}
