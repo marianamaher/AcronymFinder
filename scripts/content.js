@@ -26,6 +26,7 @@ $(document).ready(function(){
             AOE: "'Advice Onboarding Endpoint' - provides data used by the Light Questionnaire and Comments to Advisors",
             DAJ: "Provides data used by the Onboarding Dashboard",
             OPA: "Online plan acceptance",
+            C11N: "Constellation - new UI Library replacing VUI."
     
         }
     };
@@ -60,7 +61,7 @@ $(document).ready(function(){
                 padding: "15px",
                 fontSize:"20px",
                 width: "343px",
-                height: "187px",
+                height: "auto",
                 background: "white",
                 position: "fixed",
                 borderRadius:"20px",
@@ -111,8 +112,6 @@ $(document).ready(function(){
         // Appending headers and spans to the results container
         $(resultsContainer).append(headingVanguard);
         $(resultsContainer).append(headingCones);
-        $(container).css('height', 225 + 'px');
-        // Appending the results container to the main container
         $(container).append(resultsContainer);
     }
   
@@ -120,7 +119,7 @@ $(document).ready(function(){
     $(document).keydown(function(e) {
         if (e.key === " " && !$(e.target).is('input')) {
             e.preventDefault();  
-            var inputValue = $('#inputValue').val();
+            var inputValue = $('#inputValue').val()
             console.log(inputValue);
             if (inputValue === undefined || inputValue.trim() === "") {
                 if (state === "hide") {
