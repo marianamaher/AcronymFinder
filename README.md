@@ -1,6 +1,6 @@
 To install the extension:
 
-1. download the entire file and then open a Chrome page.
+1. download the entire repo and then open a Chrome page.
 2. Click on manage extensions -> enable developer mode on the top right -> load unpacked.
 3. Enter the project folder (on the manifest.json level) and click select.
    The project should be added to your extensions, make sure it's enabled.
